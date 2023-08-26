@@ -1,0 +1,44 @@
+.bill_about_title{
+    display: flex;
+    width: 100%;
+}
+.btn-white > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.btn-white > a:active {
+    font-weight: 600;
+}
+.bill_about--shop{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: end;
+}
+.bill_about--shop-inner{
+
+}
+.bill_about--shop-inner--btn{
+    font-weight: 400;
+    color: #757373;
+    border: 0;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.borderBill{
+    border-radius: 0;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: rgba(51, 50, 50, 0.53);
+
+}
+
+
+

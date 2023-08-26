@@ -1,0 +1,128 @@
+/* footer */
+#footer-content {
+    border-top: 4px solid var(--primary-color);
+    padding-top: 16px;
+}
+.footer__heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-item__link {
+    display: block;
+    text-decoration: none;
+    color: #737373;
+    font-size: 1.2rem;
+    padding: 2px 0;
+}
+.footer-item__link:hover {
+    color: var(--primary-color);
+}
+.footer-item_icon {
+    margin: -1px 8px 0 0;
+    font-size: 1.6rem;
+}
+.footer__download {
+    display: flex;
+}
+.footer__download-qr {
+    width: 80px;
+    object-fit: contain;
+    border: 1px solid var(--border-color);
+}
+.footer__download-apps {
+    margin-left: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer__download-app-link {
+    color: transparent;
+    text-decoration: none;
+}
+.footer__download-app-img {
+    height: 16px;
+}
+img.bottom1 {
+    max-width: 200px;
+    max-height: 108px;
+}
+img.bottom2 {
+    max-width: 200px;
+    max-height: 98px;
+}
+.footer__bottom {
+    padding: 10px 0;
+    background-color: #f5f5f5;
+    margin-top: 36px;
+}
+.footer__between {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0,0,0,.09);
+}
+.footer__between-left {
+    font-size: 1.4rem;
+    color: #737373;
+}
+.footer__between-right {
+    display: flex;
+    font-size: 1.4rem;
+    color: #737373;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0.84;
+    justify-content: center;
+}
+.footer__between-right a {
+    text-decoration: none;
+    color: #737373;
+}
+.footer__between-right .left {
+    margin-right: 8px;
+}
+.footer__between-right .right:not(:last-child) {
+    border-right: 1.1px solid  #73737359;
+}
+.footer__between-right .right {
+    padding: 0 5px;
+}
+.footer__text {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #737373;
+}
+.mt8-mb25 {
+    margin: 8px 0 25px;
+}
+.footer__about {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer__about a {
+    text-decoration: none;
+    color: #737373;
+}
+.footer__about div:not(:last-child) {
+    border-right: 1px solid  #73737359;
+}
+.footer__about div {
+    padding: 0 25px;
+}
+.footer__check {
+    display: flex;
+    justify-content: center;
+}
+.footer__check-link:hover {
+    cursor: pointer;
+}
+.footer__check-link {
+    margin: 0 10px;
+}

@@ -1,0 +1,60 @@
+.bill_detail_inner-containerFood{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill_detail_inner-containerFood-total{
+    display: flex;
+    flex-direction: column;
+}
+.bill_detail_inner-containerFood-total-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.bill_detail_inner-containerFood-show{
+    display: flex;
+    flex-direction: column;
+}
+.bill_detail_inner-containerFood-showProducts{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.bill_detail_inner-item{
+    align-items: center;
+    justify-content: flex-end;
+}
+.bill_detail_inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*.bill_detail_inner-item{*/
+/*    text-align: center;*/
+/*}*/
+.bill_detail_inner-bill{
+    display: flex;
+    flex-direction: column;
+}
+.bill_detail_inner-item-b {
+    display: flex;
+    align-items: center;
+}
+.bill_detail_inner-item{
+    font-size: 20px;
+}
+.bill_detail_inner-item-p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.h1{
+    font-weight: bold;
+}
+.bill_detail_inner-containerFood-p{
+    display: flex;
+    justify-content: center;
+}
+.bill_detail_inner-item-header{
+    font-size: 30px;
+    font-weight: bold;
+}

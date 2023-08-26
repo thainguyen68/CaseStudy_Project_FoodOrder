@@ -1,0 +1,507 @@
+#header {
+    height: var(--header-height);
+    /*background-image: linear-gradient(0, #ff6433, #f7422e);*/
+    background-color: #ffffff;
+
+}
+.header__navbar {
+    display:flex ;
+    justify-content: space-between;
+}
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 4px 0 0 0;
+    display: flex;
+}
+.header__navbar-item {
+    margin: 0 8px;
+    position: relative;
+    min-height: 26px;
+}
+.header__navbar-item,
+.header__navbar-item-link,
+.header__navbar-icon-link {
+    display: inline-flex;
+    font-size: 1.3rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+}
+.header__navbar-item:hover,
+.header__navbar-item-link:hover,
+.header__navbar-icon-link:hover {
+    color: rgba(0, 0, 0, 0.94);
+    cursor: pointer;
+}
+
+
+
+
+
+/* header-with search */
+.header-with-search {
+    height: var(--header-with-search-height);
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+}
+.header__logo {
+    width: 200px;
+    margin-left: -26px;
+}
+.header__logo-link{
+    text-decoration: none;
+    color: transparent;
+}
+.header__logo-img {
+    width: 150px;
+}
+.header__select{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.header__select--address-inner{
+}
+.header__select--address--btn{
+    color: #757373;
+    border: 0;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+}
+.header__select--category{
+    padding-left: 25px;
+    padding-right: 0;
+    white-space: nowrap;
+}
+.header__select--category--btn{
+    color: rgba(37, 37, 37, 0.81);
+    font-weight: 500;
+    padding: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+}
+.header__select--category--btn-link {
+    color: rgba(37, 37, 37, 0.81);
+    font-weight: 500;
+    padding: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;}
+.header__select--category--btn-link:hover{
+    color: #ee4d2d;
+    font-weight: 600;
+
+    padding: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+}
+.header__select--category--btn:hover {
+    color: #ee4d2d;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid orangered;
+}
+
+
+
+
+
+
+
+.header__search{
+    display: flex;
+    height: 36px;
+    margin-left: 20px;
+    margin-right: 8px;
+    position: relative;
+    padding: 10px 25px 10px 8px;
+    align-items: center;
+    line-height: 27px;
+    border-radius: 5px;
+    border: 0.1rem solid rgba(128, 128, 128, 0.68);
+}
+.header__search-btn{
+    width: 30px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    right: 0;
+    top: 1px;
+    height: 100%;
+}
+.header__search-btn-icon{
+    font-size: 16px;
+    color: gray;
+}
+.header__search-btn-icon:hover{
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+.header__search-input-wrap{
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.header__search-input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    flex: 1;
+    background: transparent;
+    padding: 0;
+    line-height: 32px;
+    border: none;
+    font-size: 14px;
+    border-right: 1px solid gray;
+    margin-right: 5px;
+}
+
+
+
+
+/* header - Cart */
+.header__cart {
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 12px 0 12px;
+}
+.header__cart-wrap{
+    position: relative;
+    display: inline-block;
+    padding: 0 12px;
+}
+.header__cart-icon {
+    color: #000000;
+    font-size: 2.4rem;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.header__cart-notice{
+    position: absolute;
+    top: -2px;
+    left: 26px;
+    padding: 1px 7px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    background-color: var(--white-color);
+    border: 2px solid #ee4d2d;
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+.header__cart-wrap:hover .header__Cart-list {
+    display: block;
+}
+.header__Cart-list {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 1px;
+    background-color: var(--white-color);
+    width: 400px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2.125rem 0 rgba(0,0,0,0.2);
+    display: none;
+    animation: fadeIn ease-in 0.2s;
+    cursor: default;
+    z-index: 5;
+}
+.header__Cart-list::after {
+    cursor: pointer;
+    content: "";
+    border: 12px solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: -19px;
+    right: 11px;
+    color: white;
+}
+.header__Cart-list::before {
+    content: "";
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: -19px;
+    right: 0;
+}
+
+.header__Cart-list-inner{
+    display: block;
+}
+.header__Cart-list--no-cart {
+    padding: 24px 0;
+}
+.header__Cart-list--no-cart .header__Cart-no-cart-img,
+.header__Cart-list--no-cart .header__Cart-no-cart-msg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__Cart-no-cart-img {
+    width: 55%;
+    display: block;
+    margin: auto;
+}
+.header__Cart-no-cart-msg {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: var(--text-color);
+}
+.header__Cart-heading {
+    text-align: left;
+    margin:8px 0 8px 12px;
+    font-size: 1.4rem;
+    color: #999;
+    font-weight: 400;
+}
+.header__Cart-list-item {
+    list-style: none;
+    padding-left: 0;
+    height: 32vh;
+    overflow-y: auto;
+}
+.header__Cart-list-item::-webkit-scrollbar {
+    width: 8px; /* Độ rộng của thanh cuộn */
+}
+
+.header__Cart-list-item::-webkit-scrollbar-thumb {
+    background-color: #888; /* Màu nền của thanh cuộn */
+    border-radius: 4px;
+}
+
+.header__Cart-list-item::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Màu nền của thanh cuộn khi di chuột qua */
+}
+
+.header__Cart-list-item::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Màu nền của phần dưới thanh cuộn */
+    border-radius: 4px;
+}
+
+.header__Cart-item {
+    display: flex;
+    align-items: center;
+}
+.header__Cart-item:hover {
+    background-color: #f8f8f8 ;
+}
+.header__Cart-img {
+    width: 42px;
+    height: 42px;
+    margin: 12px;
+}
+.header__Cart-item-info {
+    width: 100%;
+    margin-right: 12px;
+}
+.header__Cart-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.header__Cart-item-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0;
+    max-height:4rem;
+    overflow: hidden;
+    flex: 1;
+    padding-right: 15px;
+    text-align: start;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.header__Cart-item-price {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+.header__Cart-item-muntifly {
+    font-size: 1rem;
+    margin: 0 4px;
+    color: #757575;
+}
+.header__Cart-item-quantity {
+    font-size: 1.2rem;
+    color: #757575;
+}
+.header__Cart-item-body {
+    display: flex;
+    justify-content: space-between;
+}
+.header__Cart-item-description {
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.header__Cart-item-remove {
+    color: var(--text-color) ;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.header__Cart-item-remove:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.header__Cart-item-totalMoney{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: -68px;
+}
+.header__cart-view{
+    float: right;
+    margin: 0 12px 12px 0;
+}
+
+
+
+
+
+/*header - login */
+.header__login{
+
+}
+.header__login--btn{
+    padding: 7px 12px;
+    background-color: #fff;
+    color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.header__login--btn:hover{
+}
+.header__login--btn:hover{
+    color: rgba(238, 77, 45, 0.85);
+    border: 1px solid rgba(238, 77, 45, 0.84);
+}
+
+/*header - loginUser */
+.header__login--user{
+    width: 240px;
+}
+.header__navbar-user {
+    display: flex;
+    align-items: center;
+    top: -15%;
+    position: relative;
+}
+.header__navbar-user-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.header__navbar-user-name {
+    margin-left: 6px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.header__navbar-user-icon {
+    font-size: 1rem;
+    margin-left: 3px;
+    margin-top: -3px;
+}
+
+.header__navbar-user:hover .header__navbar-user-menu  {
+    display: block;
+}
+.header__navbar-user-menu {
+    position: absolute;
+    padding: 4px 0;
+    top: 110%;
+    right: -45px;
+    border-radius:  2px; ;
+    background-color: var(--white-color);
+    width: 160px;
+    list-style: none;
+    z-index: 5;
+    box-shadow: 1px 1px 1px #e0e0e0;
+    display: none;
+}
+.header__navbar-user-menu::before {
+    cursor: pointer;
+    content: "";
+    border: 12px solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    top: -19px;
+    right: 11px;
+}
+.header__navbar-user-menu::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 111px;
+    right: 8px;
+    top: -20px;
+}
+.header__navbar-user-item--sparate {
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+.header__navbar-user-item a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    padding: 8px;
+    display: block;
+}
+
+
+.header__navbar-user-manager{
+
+}
+
+.header__navbar-user-item a:hover {
+    background-color: #fafafa;
+}
+.header__navbar-user-item a:first-child {
+    border-top-left-radius: 2px ;
+    border-top-right-radius: 2px ;
+}
+.header__navbar-user-item a:last-child {
+    border-bottom-right-radius: 2px ;
+    border-bottom-left-radius: 2px ;
+}
+.iconManager {
+    margin-right: 12px;
+    color: gray;
+}
+.header__navbar-user-item:hover >  .header__navbar-user-manager  {
+    color: red;
+}.header__navbar-user-item:hover >  .header__navbar-user-manager >.iconManager  {
+    color: red;
+}

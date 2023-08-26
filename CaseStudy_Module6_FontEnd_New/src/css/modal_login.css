@@ -1,0 +1,124 @@
+/* authen-modal */
+/*.modal {display: none;}*/
+.auth-form {
+    width: 100%;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.auth-form__container {
+    padding: 0 32px;
+}
+.auth-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-form__heading {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.auth-form__switch-btn {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+.auth-form__input {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 1.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+}
+.auth-form__aside {
+    margin-top: 24px;
+}
+.auth-form__policy-text {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 12px;
+}
+.auth-form__text-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.auth-form__controls{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.auth-form__controls >button {
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.auth-form__control-back {
+    margin-right: 8px;
+}
+.auth-form__socials{
+    background-color: #f5f5f5;
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.auth-form__group >select{
+    height: 30px;
+    margin-top: 16px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+}
+.auth-form__socials-icon {
+    font-size: 1.8rem;
+}
+.auth-form__socials-fb{
+    background-color: #3A5A98;
+    color: var(--white-color);
+}
+.auth-form__socials-fb,
+.auth-form__socials-icon{
+    color: var(--white-color);
+
+}
+.auth-form__socials-gg {
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+.auth-form__socials-title {
+    margin: 0 26px;
+}
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+.auth-form__help-link {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #939393;
+    cursor: pointer;
+}
+.auth-form__help-separate {
+    height: 20px;
+    display: block;
+    margin: 0 16px;
+    border-left: 1px solid var(--border-color);
+}
+.auth-form__help-forgot {
+    color: var(--primary-color);
+}
+
+
+.auth-form__toggle-password{
+    position: relative;
+    float: right;
+    top: -32px;
+    font-size: 14px;
+    left: -11px;
+}

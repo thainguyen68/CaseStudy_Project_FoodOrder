@@ -1,0 +1,27 @@
+.admin_shopList_table_container{
+    display: flex;
+}
+
+.admin_shopList_table_container{
+    min-height: 400px;
+    max-height: 530px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.admin_shopList_table_container::-webkit-scrollbar {
+    width: 0; /* Độ rộng của thanh cuộn */
+}
+
+.admin_shopList_table_container::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Màu nền của thanh cuộn */
+    border-radius: 4px;
+}
+
+.admin_shopList_table_container::-webkit-scrollbar-thumb:hover {
+    background-color: transparent; /* Màu nền của thanh cuộn khi di chuột qua */
+}
+
+.admin_shopList_table_container::-webkit-scrollbar-track {
+    background-color: transparent; /* Màu nền của phần dưới thanh cuộn */
+    border-radius: 4px;
+}

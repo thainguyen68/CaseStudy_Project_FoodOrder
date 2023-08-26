@@ -1,0 +1,9 @@
+.display_chart{
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 85px;
+    top: -10px;
+}

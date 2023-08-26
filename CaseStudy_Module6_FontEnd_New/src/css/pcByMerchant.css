@@ -1,0 +1,151 @@
+.bill_about_title{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.82);
+}
+
+.pcMerchant_container_all{
+    min-height: 400px;
+    max-height: 530px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.pcMerchant_container_all::-webkit-scrollbar {
+    width: 0; /* Độ rộng của thanh cuộn */
+}
+
+.pcMerchant_container_all::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Màu nền của thanh cuộn */
+    border-radius: 4px;
+}
+
+.pcMerchant_container_all::-webkit-scrollbar-thumb:hover {
+    background-color: transparent; /* Màu nền của thanh cuộn khi di chuột qua */
+}
+
+.pcMerchant_container_all::-webkit-scrollbar-track {
+    background-color: transparent; /* Màu nền của phần dưới thanh cuộn */
+    border-radius: 4px;
+}
+
+
+
+.pcMerchant_container{
+    margin-top: 20px;
+}
+.pcMerchant_container-info{
+    background-color: white;
+    width: 30%;
+    display: flex;
+    justify-content: start;
+}
+.pcMerchant_container-info-inner{
+    background-color: #ffffff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5px 0 0 5px ;
+}
+.cssTablePc{
+    margin: 0;
+    font-size: 15px;
+}
+
+.table>thead{
+    text-align: center;
+}
+.table>tbody{
+    text-align: center;
+}
+
+
+
+
+.pcMerchant_container_end{
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    align-items: center;
+}
+.pcMerchant_container_end-stt {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.pcMerchant_container_end-ttl {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pcMerchant_container_end-cfm{
+    display: flex;
+    justify-content: center;
+}
+.btn-history{
+    min-width: 50px;
+    min-height: 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0 12px;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(217, 214, 214, 0.84);
+    margin: 0 5px 0 0;
+    font-weight: 400;
+}
+.btn-history:nth-child(2):hover{
+    color: white;
+    background-color: #8d1d1d;
+}
+.btn-history:nth-child(1):hover{
+    color: white;
+    background-color: #198c23;
+}
+
+
+
+
+
+
+/*chưa có gì trong cart*/
+.view_history-NoItem{
+    display: flex;
+    justify-content: center;
+    margin: 36px;
+}
+@keyframes fade {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*.view_history-NoItem-container {*/
+/*    animation: fade 2s infinite;*/
+/*}*/
+.view_history-NoItem-container{
+    max-height: 393px;
+}
+
+.view_history-NoItem-container-h{
+    position: relative;
+    font-size: 42px;
+    font-weight: 800;
+    color: #fbe74a;
+    text-align: center;
+    font-family: ui-rounded;
+    animation: fade 2s infinite;
+}

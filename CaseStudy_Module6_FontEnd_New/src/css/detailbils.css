@@ -1,0 +1,58 @@
+
+.bill-container {
+    width: 50%;
+    height: 70vh;
+    background: #d5d5d5;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 8px rgb(189, 194, 197);
+    font-family: initial;
+}
+.bill-container .title {
+    height: 70px;
+    margin-left: 50px;
+    padding-top: 30px;
+    color: #4ca0a2;
+    font-size: 30px;
+}
+.bill-detail .rent-code {
+    height: 70px;
+    padding-top: 30px;
+    font-size: 25px;
+    margin-left: 75px;
+}
+.bill-container .hr1 {
+    width: 90%;
+    margin: auto;
+    color: inherit;
+}
+.inner-bill .user h5{
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 21px;
+    color: #525252;
+
+}
+.inner-bill .user p{
+    margin-left: 50px;
+    font-size: 17px;
+    color: dimgray;
+}
+.inner-bill .user-time h5{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 21px;
+    color: #525252;
+
+}
+.inner-bill .user-time p{
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    color: dimgray;
+}
+.inner-bill .detail-button {
+    float: right;
+    padding-top: 10px;
+    padding-right: 40px;
+}
